@@ -8,7 +8,7 @@ let price = km * priceForKm;
 if (age <= 18) {
     price -= price * 0.20; // Sottrai il 20% dal prezzo totale
 }
-else if (age >= 65) {
+if (age >= 65) {
     price -= price * 0.40; // Sottrai il 40% dal prezzo totale
 }
 
